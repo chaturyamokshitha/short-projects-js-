@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.b{
+    background-color: blue;
+    color:white;
+}
+
+.item.dragging :where(.d)
+{
+    opacity: 0;
+}
+
+.image{
+    background-image: url('p.jpeg');
+}
+.box{
+    border:2px black solid;
+}
+.hovered{
+    border:2px black dotted;
+}
+.active{
+    color:yellow;
+}
